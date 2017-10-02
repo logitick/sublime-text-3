@@ -1,14 +1,15 @@
 {
 	"folder_history":
 	[
+		"/home/paul/web/course-manager/mty-course-manager",
 		"/home/paul/web/laravel/laradock-bm"
 	],
 	"last_version": 3143,
-	"last_window_id": 3,
+	"last_window_id": 11,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 0.0,
+		"new_window_height": 508.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -23,10 +24,26 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 124.0,
-				"last_filter": "install",
+				"height": 354.0,
+				"last_filter": "insta",
 				"selected_items":
 				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"Pac",
+						"Package Control: Remove Package"
+					],
 					[
 						"install",
 						"Package Control: Install Package"
@@ -36,7 +53,7 @@
 						"Install Package Control"
 					]
 				],
-				"width": 497.0
+				"width": 603.0
 			},
 			"console":
 			{
@@ -56,6 +73,9 @@
 			},
 			"file_history":
 			[
+				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AssociateController.php",
+				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AppointmentController.php",
+				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AlertController.php",
 				"/home/paul/web/laravel/laradock-bm/docker-compose.yml"
 			],
 			"find":
@@ -90,11 +110,11 @@
 			},
 			"incremental_find":
 			{
-				"height": 23.0
+				"height": 25.0
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 69.0
 			},
 			"menu_visible": true,
 			"output.find_results":
@@ -104,7 +124,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 42.0
+				"height": 46.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -113,6 +133,14 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"alertcontr",
+						"frontend/controllers/AlertController.php"
+					],
+					[
+						"asso",
+						"frontend/controllers/AssociateController.php"
+					]
 				],
 				"width": 0.0
 			},
@@ -144,7 +172,7 @@
 			{
 			}
 		},
-		"new_window_width": 0.0
+		"new_window_width": 640.0
 	},
 	"windows":
 	[
@@ -158,14 +186,19 @@
 			"buffers":
 			[
 				{
-					"contents": "Package Control Messages\n========================\n\nSublimeLinter\n-------------\n\n  \n    ____        _     _ _                _     _       _\n   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __\n   \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   | | '_ \\| __/ _ \\ '__|\n    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |\n   |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|_____|_|_| |_|\\__\\___|_|\n  \n  \n  Welcome to SublimeLinter, a linter framework for Sublime Text 3.\n  \n                   * * * IMPORTANT! * * *\n  \n          SublimeLinter 3 is NOT a drop-in replacement for\n          earlier versions.\n  \n          Linters *NOT* included with SublimeLinter 3, \n          they must be installed separately.\n  \n          The settings are different.\n  \n                  * * * READ THE DOCS! * * *\n  \n  Otherwise you will never know how to install linters, nor will\n  you know about all of the great new features in SublimeLinter 3.\n  \n  For complete documentation on how to install and use SublimeLinter,\n  please see:\n  \n  http://www.sublimelinter.com\n  \n  \n                   _   _      _       _\n                  | | | | ___| |_ __ | |\n                  | |_| |/ _ \\ | '_ \\| |\n                  |  _  |  __/ | |_) |_|\n                  |_| |_|\\___|_| .__/(_)\n                               |_|\n  \n  \n  Hundreds of hours have been spent writing and documenting SublimeLinter\n  to make it the best it can be — easy to use, easy to configure,\n  easy to update, easy to extend. If you use SublimeLinter and feel\n  it is making your coding life better and easier, please consider\n  making a donation to help fund development and support.\n  \n  To donate: https://github.com/SublimeLinter/SublimeLinter3#share-the-love\n  \n  Thank you!\n",
+					"file": "/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AlertController.php",
 					"settings":
 					{
-						"buffer_size": 1745,
-						"line_ending": "Unix",
-						"name": "Package Control Messages",
-						"read_only": true,
-						"scratch": true
+						"buffer_size": 12910,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AssociateController.php",
+					"settings":
+					{
+						"buffer_size": 31716,
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -176,10 +209,26 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 124.0,
-				"last_filter": "install",
+				"height": 354.0,
+				"last_filter": "insta",
 				"selected_items":
 				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"Pac",
+						"Package Control: Remove Package"
+					],
 					[
 						"install",
 						"Package Control: Install Package"
@@ -189,7 +238,7 @@
 						"Install Package Control"
 					]
 				],
-				"width": 497.0
+				"width": 603.0
 			},
 			"console":
 			{
@@ -209,10 +258,15 @@
 			},
 			"expanded_folders":
 			[
-				"/home/paul/web/laravel/laradock-bm"
+				"/home/paul/web/course-manager/mty-course-manager",
+				"/home/paul/web/course-manager/mty-course-manager/frontend",
+				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers"
 			],
 			"file_history":
 			[
+				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AssociateController.php",
+				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AppointmentController.php",
+				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AlertController.php",
 				"/home/paul/web/laravel/laradock-bm/docker-compose.yml"
 			],
 			"find":
@@ -248,7 +302,7 @@
 			"folders":
 			[
 				{
-					"path": "/home/paul/web/laravel/laradock-bm"
+					"path": "/home/paul/web/course-manager/mty-course-manager"
 				}
 			],
 			"groups":
@@ -259,30 +313,39 @@
 					[
 						{
 							"buffer": 0,
+							"file": "/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AlertController.php",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1745,
+								"buffer_size": 12910,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										246,
-										246
+										100,
+										100
 									]
 								],
 								"settings":
 								{
-									"auto_indent": false,
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_width": 2,
-									"vim":
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
+									"vintage":
 									{
-										"xpos": 38
-									},
-									"word_wrap": true
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 26
+									}
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -292,15 +355,64 @@
 							"type": "text"
 						}
 					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 1,
+							"file": "/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AssociateController.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 31716,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"history_list_is_closing": true,
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"translate_tabs_to_spaces": false,
+									"vintage":
+									{
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									}
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 23.0
+				"height": 25.0
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 69.0
 			},
 			"layout":
 			{
@@ -311,6 +423,12 @@
 						0,
 						1,
 						1
+					],
+					[
+						0,
+						1,
+						1,
+						2
 					]
 				],
 				"cols":
@@ -321,6 +439,7 @@
 				"rows":
 				[
 					0.0,
+					0.5,
 					1.0
 				]
 			},
@@ -330,11 +449,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,3840,1080",
+			"position": "0,1,0,0,0,1035,144,1675,652,3840,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 42.0
+				"height": 46.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -343,6 +462,14 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"alertcontr",
+						"frontend/controllers/AlertController.php"
+					],
+					[
+						"asso",
+						"frontend/controllers/AssociateController.php"
+					]
 				],
 				"width": 0.0
 			},
@@ -367,6 +494,11 @@
 			"selected_group": 0,
 			"settings":
 			{
+				"_vintageous_reset_during_init": true,
+				"vintage":
+				{
+					"_cmdline_cd": "/home/paul/.config/sublime-text-3/Packages"
+				}
 			},
 			"show_minimap": true,
 			"show_open_files": false,
@@ -377,7 +509,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 1,
+			"window_id": 4,
 			"workspace_name": ""
 		},
 		{
@@ -406,7 +538,8 @@
 					"file": "/home/paul/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 147,
+						"buffer_size": 306,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				}
@@ -418,10 +551,26 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 124.0,
-				"last_filter": "install",
+				"height": 354.0,
+				"last_filter": "insta",
 				"selected_items":
 				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"Package remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"Pac",
+						"Package Control: Remove Package"
+					],
 					[
 						"install",
 						"Package Control: Install Package"
@@ -431,7 +580,7 @@
 						"Install Package Control"
 					]
 				],
-				"width": 497.0
+				"width": 603.0
 			},
 			"console":
 			{
@@ -451,6 +600,9 @@
 			},
 			"file_history":
 			[
+				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AssociateController.php",
+				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AppointmentController.php",
+				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AlertController.php",
 				"/home/paul/web/laravel/laradock-bm/docker-compose.yml"
 			],
 			"find":
@@ -508,9 +660,9 @@
 								],
 								"settings":
 								{
-									"edit_settings_other_view_id": 63,
+									"edit_settings_other_view_id": 257,
 									"edit_settings_view": "base",
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+									"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -531,28 +683,40 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 147,
+								"buffer_size": 306,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										259,
+										259
 									]
 								],
 								"settings":
 								{
-									"edit_settings_other_view_id": 62,
+									"edit_settings_other_view_id": 256,
 									"edit_settings_view": "user",
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-									"vim":
+									"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
+									"translate_tabs_to_spaces": false,
+									"vintage":
 									{
-										"xpos": 0
+										"_vintageous_glue_until_normal_mode": false,
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"normal_insert_count": "1",
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 36
 									}
 								},
-								"translation.x": 0.0,
+								"translation.x": 41.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
@@ -564,11 +728,11 @@
 			],
 			"incremental_find":
 			{
-				"height": 23.0
+				"height": 28.0
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 69.0
 			},
 			"layout":
 			{
@@ -605,11 +769,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,51,24,691,504,3840,1080",
+			"position": "0,0,0,0,0,51,24,691,532,3840,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 42.0
+				"height": 52.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -618,6 +782,14 @@
 				"last_filter": "",
 				"selected_items":
 				[
+					[
+						"alertcontr",
+						"frontend/controllers/AlertController.php"
+					],
+					[
+						"asso",
+						"frontend/controllers/AssociateController.php"
+					]
 				],
 				"width": 0.0
 			},
@@ -642,6 +814,10 @@
 			"selected_group": 1,
 			"settings":
 			{
+				"_vintageous_reset_during_init": true,
+				"vintage":
+				{
+				}
 			},
 			"show_minimap": true,
 			"show_open_files": false,
@@ -652,7 +828,7 @@
 			"template_settings":
 			{
 			},
-			"window_id": 3,
+			"window_id": 11,
 			"workspace_name": ""
 		}
 	],

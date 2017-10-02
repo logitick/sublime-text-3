@@ -5,9 +5,13 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
+		"Material Theme",
+		"Origami",
 		"Package Control",
 		"PHP Companion",
-		"Six",
-		"SublimeLinter"
+		"SublimeLinter",
+		"Vintageous",
+		"VintageousOrigami"
 	]
 }
