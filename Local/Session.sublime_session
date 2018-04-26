@@ -1,7 +1,6 @@
 {
 	"folder_history":
 	[
-		"/home/paul/web/laravel/laradock-bm"
 	],
 	"last_version": 3143,
 	"last_window_id": 1,
@@ -21,12 +20,14 @@
 			"buffers":
 			[
 				{
-					"file": "/home/paul/web/laravel/laradock-bm/docker-compose.yml",
+					"contents": "Package Control Messages\n========================\n\nA File Icon\n-----------\n\n  # A File Icon 3.2.2\n  \n  New release!\n  \n  Please see `Tools → Packages → A File Icon → Changelog` for more info about \n  the release.\n  \n  ***\n  \n  Please reinstall package if you have some problems with upgrade.\n  Such issues will be fixed with the 4.0.0 version.\n  Finally I have some free time to continue work on it.\n\n\nMaterial Theme\n--------------\n\n  #### Material Theme for Sublime Text 3\n  \n  ## Version 4.1.5\n  \n  📣 **BUG FIXES**:\n  * Fix theme not activating after installation ([#1230](https://github.com/equinusocio/material-theme/issues/1230)) ([1e8ffa5](https://github.com/equinusocio/material-theme/commit/1e8ffa5))\n  \n  ** Check the official changelog (https://github.com/equinusocio/material-theme/blob/master/CHANGELOG.md) **\n\n\nSublimeLinter\n-------------\n\n  SublimeLinter 4.3\n  =================\n  \n  - Now shows the active/assigned linters in the status bar.\n    SL will show e.g. 'eslint(ok)' if there were no errors, or 'eslint(1|2)' when\n    there is 1 warning and 2 errors.\n    If there is a hard error with the configuration it will state 'eslint(erred)'.\n    The counters_template setting is still applied, but different than before.\n    Check the default settings for more information.\n  \n  - Introduces a new setting called 'kill_old_processes'. If set it to true,\n    SL will send a 'terminate' signal to processes when SL won't use its output.\n    Use this if you're using slow linters that seem to hang ST a lot.\n    Related PR: https://github.com/SublimeLinter/SublimeLinter/pull/1250\n  \n  - For OSX we now wait (up to 1 minute) until the env has been loaded by Sublime.\n    This should prevent issues with SL not finding the executables.\n    Note that dev builds of ST also fix this issue for us.\n    Related ST issue: https://github.com/SublimeTextIssues/Core/issues/1877\n  \n  - Fixed a bug where hovering would sometimes not open the right tooltip.\n  - Fixed the visualization of multi-line errors in tooltips.\n  - Fixed a bug where not all gutter icons were drawn.\n  \n  - The debounce delay before a lint in background mode will now be set\n    automatically based on how fast your computer and your linters actually are.\n  - Added an upper limit for how many lint processes can run in parallel.\n  - Much improved logging about what command SL actually runs.\n  \n  \n  For plugin developers\n  ----------------------\n  \n  BREAKING CHANGES:\n  - For STREAM_BOTH linters we will call 'linter.on_stderr()' automatically if\n    there is any output on 'stderr' and only pass 'stdout' down.\n    Set 'on_stderr = None' to disable.\n  - Removed 'util.popen()'\n  - Removed 'linter.build_options()'\n  \n  DEPRECATED:\n  - 'util.communicate' has been deprecated,\n    The functionality is now in 'self._communicate'.\n    If you need to quickly run a command, use 'util.check_output'\n  \n  NEW:\n  - New API: popen calls now return an object, not just a string of the output\n    with the typical members '.stdout/.stderr/returncode'.\n    For compatibility, only the new 'linter.parse_output(proc, virtual_view)'\n    actually sees this 'proc'.\n  - If the linter failed, call 'self.notify_failure()'.\n    You should additionally log the error either as an error or a warning.\n  - In the 'defaults' setting we now support flags like \"{'--stdin': True|False}\".\n    You can also define e.g. \"{'--include': ''}\" instead of \"{'--include:': ''}\".\n  - You can now get the linter settings via 'get_linter_settings(linter, view)'.\n\n  SublimeLinter 4.1.0\n  ===================\n  \n  Introduces a setting to show the output panel if there are problems:\n  \n  \"show_panel_on_save\"\n  \n  - Set to \"window\" to check if the window has problems.\n  - Set to \"view\" to only check the current file.\n  - Set to \"never\" to disable this feature. This is the default\n  \n  \n  Also introduces a new command to quickly toggle highlights, which can be useful\n  if you're just reading or hacking on some pseudo code:\n  \n  \"SublimeLinter: Toggle Highlights\"\n  \n  You can create your own key binding for this if you like, using\n  \"sublime_linter_toggle_highlights\"\n  \n  \n  Deprecations:\n  - The panel can no longer be filtered. The filtering had several problems\n    and not a lot of usage. We will need to rethink this feature if there\n    does appear to be demand for it.\n  - Linter plugins can no longer set version requirements. More info in #1087.\n\n  SublimeLinter 4.0.3\n  ======================\n  \n  Introduces settings to customize the information in the status bar\n  \n  - \"statusbar.counters_template\"\n    configure if and how how W:/E: counters appear in the status bar\n  - \"statusbar.messages_template\"\n    configure that for the messages for the problem at your cursor\n\n  SublimeLinter 4.0.1\n  ======================\n  \n  Introduces highlights.demote_scope\n  \n  Did you see the settings \"highlights.*\"? We have a new one:\n  \n  \"highlights.demote_scope\"\n  \n  Set it to the empty string to actually hide regions while editing.\n  Set it to a scope to change their appearance, e.g. \"comment\" to draw\n  them in a soft color.\n\n  SublimeLinter 4.0\n  ===========================================\n  \n  You can find this text at\n  https://raw.githubusercontent.com/SublimeLinter/SublimeLinter/master/messages/4.0.0.txt\n  \n  ####################################################\n  #                                                  #\n  #  Please restart Sublime Text before continuing!  #\n  #                                                  #\n  ####################################################\n  \n  \n  New features\n  -------------------------------------------\n  \n  - Hover over an error to view the message.\n  - Hover over the gutter to view all error messages for that line.\n  - The statusbar now shows error (E) and warning (W) counts if there are any.\n  - The statusbar shows the error for your cursor position instead of all errors\n    for that line.\n  - A panel displays errors in all open files.\n  - Jump between errors in the current file with sublime_linter_goto_error.\n  - A new \"styles\" setting to configure error highlighting.\n  - Each linter setting now accepts such a \"styles\" setting, so colors, icons and\n    highlight style can be differentiated per linter.\n  - Styles also have a \"priority\" which decides what icon to show in the gutter.\n  - Gutter themes can now be set using just their name.\n  - Gutter themes can now have multiple icons, selectable by just their name.\n    In the \"Default\" theme: diamond, heart, square, star, triangle and more!\n  - No \"(SL)\" color scheme files are generated, in stead relying on common scopes.\n  - It's possible to use a color by specifying any scope that's in your color\n    scheme (e.g. \"entity.name\")\n  - If you're using ST dev builds you can change colors by specifying\n    \"region.<colorish>\" in the scope option. Colors:\n    redish, orangish, yellowish, greenish, bluish, purplish, pinkish\n  - SublimeLinter will no longer be visible under Packages/SublimeLinter, so you\n    cannot edit its code directly. If you want to make changes you can clone the\n    repo into Packages. If you fix a bug, please share it with the world with a\n    pull request!\n  \n  \n  Changes to commands, menus and key bindings\n  -------------------------------------------\n  \n  The context menu now only lists the Lint This View command.\n  The tools menu has been removed.\n  Commands are now named sublime_linter_* to comply with naming conventions.\n  \n  Commands to change settings or toggle linters have been removed.\n  - Settings can be changed by modifying your user settings.\n  - Linters may be disabled in the user settings,\n    or in your project configuration.\n  \n  \n  Changes to settings\n  -------------------------------------------\n  \n  Default settings now have documentation in line.\n  Default settings can no longer be edited.\n  Default settings are no longer copied to the user settings.\n  - Learn about the configuration options for each linter in the docs and\n    in the README of the linter plugin.\n  \n  The \"user\" node has been removed from settings.\n  A python version can no longer be set globally.\n  The \"chdir\" setting has been renamed to \"working_dir\".\n  \n  The settings \"ignore_matches\" and \"demote_to_warning_matches\" have been removed.\n  Your linter should have settings to modify the rules or severity levels.\n  \n  Settings tokens (e.g. ${folder}) are now expanded using SublimeText features,\n  so there are more tokens you can use. The docs covers this in more detail.\n  \n  Settings can be specified in your user settings, or in project configuration\n  (*.sublime-project files). Inline settings, inline overrides, shebang settings\n  and .sublimelinterrc files are no longer supported.\n  \n  \n  How to upgrade\n  -------------------------------\n  \n  Your old settings will be backed up to SublimeLinter old.sublime-settings.\n  You may want to compare them to the new default settings and check if you want\n  to migrate anything.\n  \n  To migrate your settings, first remove the \"user\" level and un-indent/flatten\n  everything a level. Check the default settings to remove settings that don't\n  exist anymore:\n  \n  - mark_style\n  - error_color\n  - gutter_theme_excludes\n  - passive_warnings\n  - show_errors_on_save\n  - tooltip_fontsize, tooltip_theme, tooltip_theme_excludes, tooltips\n  - warning_color\n  - wrap_find\n  - python_paths\n  \n  You can keep the \"linters\" settings block if it contains customizations that\n  you need. It's also safe to remove it otherwise.\n  Note that \"@disable\" is now \"disable\", without the \"@\".\n  \n  If you use the ${project} settings token you should change that to ${folder}.\n  \n  You can now change your color scheme to one without the (SL) suffix. After\n  doing so you can remove the Packages/User/SublimeLinter directory. It holds\n  augmented color schemes that are no longer needed.\n",
 					"settings":
 					{
-						"buffer_size": 18300,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
+						"buffer_size": 9840,
+						"line_ending": "Unix",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
 					}
 				}
 			],
@@ -37,24 +38,16 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 154.0,
-				"last_filter": "install",
+				"height": 0.0,
+				"last_filter": "",
 				"selected_items":
 				[
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"pac",
-						"Install Package Control"
-					]
 				],
-				"width": 461.0
+				"width": 0.0
 			},
 			"console":
 			{
-				"height": 130.0,
+				"height": 173.0,
 				"history":
 				[
 				]
@@ -68,19 +61,12 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/home/paul/web/laravel/laradock-bm",
-				"/home/paul/web/laravel/laradock-bm/nginx",
-				"/home/paul/web/laravel/laradock-bm/nginx/sites"
-			],
 			"file_history":
 			[
-				"/home/paul/web/laravel/laradock-bm/docker-compose.yml"
 			],
 			"find":
 			{
-				"height": 38.0
+				"height": 0.0
 			},
 			"find_in_files":
 			{
@@ -108,12 +94,6 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "/home/paul/web/laravel/laradock-bm"
-				}
-			],
 			"groups":
 			[
 				{
@@ -122,26 +102,39 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/paul/web/laravel/laradock-bm/docker-compose.yml",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 18300,
+								"buffer_size": 9840,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										220,
+										220
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/YAML/YAML.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true
+									"auto_indent": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"vintage":
+									{
+										"action": null,
+										"action_count": "",
+										"mode": "mode_normal",
+										"motion": null,
+										"motion_count": "",
+										"must_capture_register_name": false,
+										"partial_sequence": "",
+										"register": "\"",
+										"sequence": "",
+										"xpos": 0
+									},
+									"word_wrap": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -155,7 +148,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 23.0
+				"height": 0.0
 			},
 			"input":
 			{
@@ -189,11 +182,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,221,319,861,827,3840,1080",
+			"position": "0,1,0,0,0,411,122,968,540,1366,768",
 			"project": "",
 			"replace":
 			{
-				"height": 42.0
+				"height": 0.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -226,12 +219,17 @@
 			"selected_group": 0,
 			"settings":
 			{
+				"_vintageous_reset_during_init": true,
+				"vintage":
+				{
+					"_cmdline_cd": "/opt/sublime_text"
+				}
 			},
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 260.0,
+			"side_bar_width": 131.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{

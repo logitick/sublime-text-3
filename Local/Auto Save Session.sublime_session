@@ -1,15 +1,13 @@
 {
 	"folder_history":
 	[
-		"/home/paul/web/course-manager/mty-course-manager",
-		"/home/paul/web/laravel/laradock-bm"
 	],
 	"last_version": 3143,
-	"last_window_id": 11,
+	"last_window_id": 2,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 508.0,
+		"new_window_height": 0.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -24,40 +22,16 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 354.0,
-				"last_filter": "insta",
+				"height": 0.0,
+				"last_filter": "",
 				"selected_items":
 				[
-					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
-						"install ",
-						"Package Control: Install Package"
-					],
-					[
-						"Package remove",
-						"Package Control: Remove Package"
-					],
-					[
-						"Pac",
-						"Package Control: Remove Package"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"pac",
-						"Install Package Control"
-					]
 				],
-				"width": 603.0
+				"width": 0.0
 			},
 			"console":
 			{
-				"height": 130.0,
+				"height": 173.0,
 				"history":
 				[
 				]
@@ -73,14 +47,10 @@
 			},
 			"file_history":
 			[
-				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AssociateController.php",
-				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AppointmentController.php",
-				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AlertController.php",
-				"/home/paul/web/laravel/laradock-bm/docker-compose.yml"
 			],
 			"find":
 			{
-				"height": 38.0
+				"height": 0.0
 			},
 			"find_in_files":
 			{
@@ -110,13 +80,21 @@
 			},
 			"incremental_find":
 			{
-				"height": 25.0
+				"height": 0.0
 			},
 			"input":
 			{
-				"height": 69.0
+				"height": 0.0
 			},
 			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 139.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
@@ -124,7 +102,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 46.0
+				"height": 0.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -133,14 +111,6 @@
 				"last_filter": "",
 				"selected_items":
 				[
-					[
-						"alertcontr",
-						"frontend/controllers/AlertController.php"
-					],
-					[
-						"asso",
-						"frontend/controllers/AssociateController.php"
-					]
 				],
 				"width": 0.0
 			},
@@ -166,13 +136,13 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 260.0,
+			"side_bar_width": 131.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 640.0
+		"new_window_width": 0.0
 	},
 	"windows":
 	[
@@ -186,19 +156,14 @@
 			"buffers":
 			[
 				{
-					"file": "/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AlertController.php",
+					"contents": "Package Control Messages\n========================\n\nA File Icon\n-----------\n\n  # A File Icon 3.2.2\n  \n  New release!\n  \n  Please see `Tools → Packages → A File Icon → Changelog` for more info about \n  the release.\n  \n  ***\n  \n  Please reinstall package if you have some problems with upgrade.\n  Such issues will be fixed with the 4.0.0 version.\n  Finally I have some free time to continue work on it.\n\n\nMaterial Theme\n--------------\n\n  #### Material Theme for Sublime Text 3\n  \n  ## Version 4.1.5\n  \n  📣 **BUG FIXES**:\n  * Fix theme not activating after installation ([#1230](https://github.com/equinusocio/material-theme/issues/1230)) ([1e8ffa5](https://github.com/equinusocio/material-theme/commit/1e8ffa5))\n  \n  ** Check the official changelog (https://github.com/equinusocio/material-theme/blob/master/CHANGELOG.md) **\n\n\nSublimeLinter\n-------------\n\n  SublimeLinter 4.3\n  =================\n  \n  - Now shows the active/assigned linters in the status bar.\n    SL will show e.g. 'eslint(ok)' if there were no errors, or 'eslint(1|2)' when\n    there is 1 warning and 2 errors.\n    If there is a hard error with the configuration it will state 'eslint(erred)'.\n    The counters_template setting is still applied, but different than before.\n    Check the default settings for more information.\n  \n  - Introduces a new setting called 'kill_old_processes'. If set it to true,\n    SL will send a 'terminate' signal to processes when SL won't use its output.\n    Use this if you're using slow linters that seem to hang ST a lot.\n    Related PR: https://github.com/SublimeLinter/SublimeLinter/pull/1250\n  \n  - For OSX we now wait (up to 1 minute) until the env has been loaded by Sublime.\n    This should prevent issues with SL not finding the executables.\n    Note that dev builds of ST also fix this issue for us.\n    Related ST issue: https://github.com/SublimeTextIssues/Core/issues/1877\n  \n  - Fixed a bug where hovering would sometimes not open the right tooltip.\n  - Fixed the visualization of multi-line errors in tooltips.\n  - Fixed a bug where not all gutter icons were drawn.\n  \n  - The debounce delay before a lint in background mode will now be set\n    automatically based on how fast your computer and your linters actually are.\n  - Added an upper limit for how many lint processes can run in parallel.\n  - Much improved logging about what command SL actually runs.\n  \n  \n  For plugin developers\n  ----------------------\n  \n  BREAKING CHANGES:\n  - For STREAM_BOTH linters we will call 'linter.on_stderr()' automatically if\n    there is any output on 'stderr' and only pass 'stdout' down.\n    Set 'on_stderr = None' to disable.\n  - Removed 'util.popen()'\n  - Removed 'linter.build_options()'\n  \n  DEPRECATED:\n  - 'util.communicate' has been deprecated,\n    The functionality is now in 'self._communicate'.\n    If you need to quickly run a command, use 'util.check_output'\n  \n  NEW:\n  - New API: popen calls now return an object, not just a string of the output\n    with the typical members '.stdout/.stderr/returncode'.\n    For compatibility, only the new 'linter.parse_output(proc, virtual_view)'\n    actually sees this 'proc'.\n  - If the linter failed, call 'self.notify_failure()'.\n    You should additionally log the error either as an error or a warning.\n  - In the 'defaults' setting we now support flags like \"{'--stdin': True|False}\".\n    You can also define e.g. \"{'--include': ''}\" instead of \"{'--include:': ''}\".\n  - You can now get the linter settings via 'get_linter_settings(linter, view)'.\n\n  SublimeLinter 4.1.0\n  ===================\n  \n  Introduces a setting to show the output panel if there are problems:\n  \n  \"show_panel_on_save\"\n  \n  - Set to \"window\" to check if the window has problems.\n  - Set to \"view\" to only check the current file.\n  - Set to \"never\" to disable this feature. This is the default\n  \n  \n  Also introduces a new command to quickly toggle highlights, which can be useful\n  if you're just reading or hacking on some pseudo code:\n  \n  \"SublimeLinter: Toggle Highlights\"\n  \n  You can create your own key binding for this if you like, using\n  \"sublime_linter_toggle_highlights\"\n  \n  \n  Deprecations:\n  - The panel can no longer be filtered. The filtering had several problems\n    and not a lot of usage. We will need to rethink this feature if there\n    does appear to be demand for it.\n  - Linter plugins can no longer set version requirements. More info in #1087.\n\n  SublimeLinter 4.0.3\n  ======================\n  \n  Introduces settings to customize the information in the status bar\n  \n  - \"statusbar.counters_template\"\n    configure if and how how W:/E: counters appear in the status bar\n  - \"statusbar.messages_template\"\n    configure that for the messages for the problem at your cursor\n\n  SublimeLinter 4.0.1\n  ======================\n  \n  Introduces highlights.demote_scope\n  \n  Did you see the settings \"highlights.*\"? We have a new one:\n  \n  \"highlights.demote_scope\"\n  \n  Set it to the empty string to actually hide regions while editing.\n  Set it to a scope to change their appearance, e.g. \"comment\" to draw\n  them in a soft color.\n\n  SublimeLinter 4.0\n  ===========================================\n  \n  You can find this text at\n  https://raw.githubusercontent.com/SublimeLinter/SublimeLinter/master/messages/4.0.0.txt\n  \n  ####################################################\n  #                                                  #\n  #  Please restart Sublime Text before continuing!  #\n  #                                                  #\n  ####################################################\n  \n  \n  New features\n  -------------------------------------------\n  \n  - Hover over an error to view the message.\n  - Hover over the gutter to view all error messages for that line.\n  - The statusbar now shows error (E) and warning (W) counts if there are any.\n  - The statusbar shows the error for your cursor position instead of all errors\n    for that line.\n  - A panel displays errors in all open files.\n  - Jump between errors in the current file with sublime_linter_goto_error.\n  - A new \"styles\" setting to configure error highlighting.\n  - Each linter setting now accepts such a \"styles\" setting, so colors, icons and\n    highlight style can be differentiated per linter.\n  - Styles also have a \"priority\" which decides what icon to show in the gutter.\n  - Gutter themes can now be set using just their name.\n  - Gutter themes can now have multiple icons, selectable by just their name.\n    In the \"Default\" theme: diamond, heart, square, star, triangle and more!\n  - No \"(SL)\" color scheme files are generated, in stead relying on common scopes.\n  - It's possible to use a color by specifying any scope that's in your color\n    scheme (e.g. \"entity.name\")\n  - If you're using ST dev builds you can change colors by specifying\n    \"region.<colorish>\" in the scope option. Colors:\n    redish, orangish, yellowish, greenish, bluish, purplish, pinkish\n  - SublimeLinter will no longer be visible under Packages/SublimeLinter, so you\n    cannot edit its code directly. If you want to make changes you can clone the\n    repo into Packages. If you fix a bug, please share it with the world with a\n    pull request!\n  \n  \n  Changes to commands, menus and key bindings\n  -------------------------------------------\n  \n  The context menu now only lists the Lint This View command.\n  The tools menu has been removed.\n  Commands are now named sublime_linter_* to comply with naming conventions.\n  \n  Commands to change settings or toggle linters have been removed.\n  - Settings can be changed by modifying your user settings.\n  - Linters may be disabled in the user settings,\n    or in your project configuration.\n  \n  \n  Changes to settings\n  -------------------------------------------\n  \n  Default settings now have documentation in line.\n  Default settings can no longer be edited.\n  Default settings are no longer copied to the user settings.\n  - Learn about the configuration options for each linter in the docs and\n    in the README of the linter plugin.\n  \n  The \"user\" node has been removed from settings.\n  A python version can no longer be set globally.\n  The \"chdir\" setting has been renamed to \"working_dir\".\n  \n  The settings \"ignore_matches\" and \"demote_to_warning_matches\" have been removed.\n  Your linter should have settings to modify the rules or severity levels.\n  \n  Settings tokens (e.g. ${folder}) are now expanded using SublimeText features,\n  so there are more tokens you can use. The docs covers this in more detail.\n  \n  Settings can be specified in your user settings, or in project configuration\n  (*.sublime-project files). Inline settings, inline overrides, shebang settings\n  and .sublimelinterrc files are no longer supported.\n  \n  \n  How to upgrade\n  -------------------------------\n  \n  Your old settings will be backed up to SublimeLinter old.sublime-settings.\n  You may want to compare them to the new default settings and check if you want\n  to migrate anything.\n  \n  To migrate your settings, first remove the \"user\" level and un-indent/flatten\n  everything a level. Check the default settings to remove settings that don't\n  exist anymore:\n  \n  - mark_style\n  - error_color\n  - gutter_theme_excludes\n  - passive_warnings\n  - show_errors_on_save\n  - tooltip_fontsize, tooltip_theme, tooltip_theme_excludes, tooltips\n  - warning_color\n  - wrap_find\n  - python_paths\n  \n  You can keep the \"linters\" settings block if it contains customizations that\n  you need. It's also safe to remove it otherwise.\n  Note that \"@disable\" is now \"disable\", without the \"@\".\n  \n  If you use the ${project} settings token you should change that to ${folder}.\n  \n  You can now change your color scheme to one without the (SL) suffix. After\n  doing so you can remove the Packages/User/SublimeLinter directory. It holds\n  augmented color schemes that are no longer needed.\n",
 					"settings":
 					{
-						"buffer_size": 12910,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AssociateController.php",
-					"settings":
-					{
-						"buffer_size": 31716,
-						"line_ending": "Windows"
+						"buffer_size": 9840,
+						"line_ending": "Unix",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
 					}
 				}
 			],
@@ -209,40 +174,16 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 354.0,
-				"last_filter": "insta",
+				"height": 0.0,
+				"last_filter": "",
 				"selected_items":
 				[
-					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
-						"install ",
-						"Package Control: Install Package"
-					],
-					[
-						"Package remove",
-						"Package Control: Remove Package"
-					],
-					[
-						"Pac",
-						"Package Control: Remove Package"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"pac",
-						"Install Package Control"
-					]
 				],
-				"width": 603.0
+				"width": 0.0
 			},
 			"console":
 			{
-				"height": 130.0,
+				"height": 173.0,
 				"history":
 				[
 				]
@@ -256,22 +197,12 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/home/paul/web/course-manager/mty-course-manager",
-				"/home/paul/web/course-manager/mty-course-manager/frontend",
-				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers"
-			],
 			"file_history":
 			[
-				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AssociateController.php",
-				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AppointmentController.php",
-				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AlertController.php",
-				"/home/paul/web/laravel/laradock-bm/docker-compose.yml"
 			],
 			"find":
 			{
-				"height": 38.0
+				"height": 0.0
 			},
 			"find_in_files":
 			{
@@ -299,12 +230,6 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "/home/paul/web/course-manager/mty-course-manager"
-				}
-			],
 			"groups":
 			[
 				{
@@ -313,77 +238,30 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AlertController.php",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 12910,
+								"buffer_size": 9840,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										100,
-										100
+										212,
+										212
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true,
+									"auto_indent": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
 									"vintage":
 									{
-										"action": null,
-										"action_count": "",
-										"mode": "mode_normal",
-										"motion": null,
-										"motion_count": "",
-										"must_capture_register_name": false,
-										"partial_sequence": "",
-										"register": "\"",
-										"sequence": "",
-										"xpos": 26
-									}
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 1,
-							"file": "/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AssociateController.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 31716,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"history_list_is_closing": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"translate_tabs_to_spaces": false,
-									"vintage":
-									{
+										"_vintageous_glue_until_normal_mode": false,
+										"_vintageous_non_interactive": false,
+										"_vintageous_processing_notation": false,
 										"action": null,
 										"action_count": "",
 										"mode": "mode_normal",
@@ -394,13 +272,14 @@
 										"register": "\"",
 										"sequence": "",
 										"xpos": 0
-									}
+									},
+									"word_wrap": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 0,
 							"type": "text"
 						}
 					]
@@ -408,11 +287,11 @@
 			],
 			"incremental_find":
 			{
-				"height": 25.0
+				"height": 0.0
 			},
 			"input":
 			{
-				"height": 69.0
+				"height": 0.0
 			},
 			"layout":
 			{
@@ -423,12 +302,6 @@
 						0,
 						1,
 						1
-					],
-					[
-						0,
-						1,
-						1,
-						2
 					]
 				],
 				"cols":
@@ -439,21 +312,28 @@
 				"rows":
 				[
 					0.0,
-					0.5,
 					1.0
 				]
 			},
 			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 139.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,1035,144,1675,652,3840,1080",
+			"position": "0,1,0,0,0,0,0,0,0,1366,768",
 			"project": "",
 			"replace":
 			{
-				"height": 46.0
+				"height": 0.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -462,14 +342,6 @@
 				"last_filter": "",
 				"selected_items":
 				[
-					[
-						"alertcontr",
-						"frontend/controllers/AlertController.php"
-					],
-					[
-						"asso",
-						"frontend/controllers/AssociateController.php"
-					]
 				],
 				"width": 0.0
 			},
@@ -497,19 +369,19 @@
 				"_vintageous_reset_during_init": true,
 				"vintage":
 				{
-					"_cmdline_cd": "/home/paul/.config/sublime-text-3/Packages"
+					"_cmdline_cd": "/opt/sublime_text"
 				}
 			},
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 260.0,
+			"side_bar_width": 131.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 4,
+			"window_id": 1,
 			"workspace_name": ""
 		},
 		{
@@ -522,23 +394,23 @@
 			"buffers":
 			[
 				{
-					"contents": "// Place your settings in the file \"Packages/User/Preferences.sublime-settings\",\n// which overrides the settings in here.\n//\n// Settings may also be placed in syntax-specific setting files, for\n// example, in Packages/User/Python.sublime-settings for python files.\n{\n    // Sets the colors used within the text area\n    \"color_scheme\": \"Packages/Color Scheme - Default/Monokai.tmTheme\",\n\n    // Note that the font_face and font_size are overridden in the platform\n    // specific settings file, for example, \"Preferences (Linux).sublime-settings\".\n    // Because of this, setting them here will have no effect: you must set them\n    // in your User File Preferences.\n    \"font_face\": \"\",\n    \"font_size\": 10,\n\n    // Valid options are \"no_bold\", \"no_italic\", \"no_antialias\", \"gray_antialias\",\n    // \"subpixel_antialias\", \"no_round\" (OS X only), \"gdi\" (Windows only) and\n    // \"directwrite\" (Windows only)\n    \"font_options\": [],\n    // Font options for theme text. Valid options are: \"no_antialias\",\n    // \"gray_antialias\", \"gdi\" (Windows only) and \"directwrite\" (Windows only)\n    \"theme_font_options\": [],\n\n    // Characters that are considered to separate words\n    \"word_separators\": \"./\\\\()\\\"'-:,.;<>~!@#$%^&*|+=[]{}`~?\",\n\n    // Set to false to prevent line numbers being drawn in the gutter\n    \"line_numbers\": true,\n\n    // Set to false to hide the gutter altogether\n    \"gutter\": true,\n\n    // Spacing between the gutter and the text\n    \"margin\": 4,\n\n    // Fold buttons are the triangles shown in the gutter to fold regions of text\n    \"fold_buttons\": true,\n\n    // Hides the fold buttons unless the mouse is over the gutter\n    \"fade_fold_buttons\": true,\n\n    // Columns in which to display vertical rulers\n    \"rulers\": [],\n\n    // Set to true to turn spell checking on by default\n    \"spell_check\": false,\n\n    // The number of spaces a tab is considered equal to\n    \"tab_size\": 4,\n\n    // Set to true to insert spaces when tab is pressed\n    \"translate_tabs_to_spaces\": false,\n\n    // If translate_tabs_to_spaces is true, use_tab_stops will make tab and\n    // backspace insert/delete up to the next tabstop\n    \"use_tab_stops\": true,\n\n    // Set to false to disable detection of tabs vs. spaces on load\n    \"detect_indentation\": true,\n\n    // Calculates indentation automatically when pressing enter\n    \"auto_indent\": true,\n\n    // Makes auto indent a little smarter, e.g., by indenting the next line\n    // after an if statement in C. Requires auto_indent to be enabled.\n    \"smart_indent\": true,\n\n    // Adds whitespace up to the first open bracket when indenting. Requires\n    // auto_indent to be enabled.\n    \"indent_to_bracket\": false,\n\n    // Trims white space added by auto_indent when moving the caret off the\n    // line.\n    \"trim_automatic_white_space\": true,\n\n    // Disables horizontal scrolling if enabled.\n    // May be set to true, false, or \"auto\", where it will be disabled for\n    // source code, and otherwise enabled.\n    \"word_wrap\": \"auto\",\n\n    // Set to a value other than 0 to force wrapping at that column rather than the\n    // window width\n    \"wrap_width\": 0,\n\n    // Set to false to prevent word wrapped lines from being indented to the same\n    // level\n    \"indent_subsequent_lines\": true,\n\n    // Draws text centered in the window rather than left aligned\n    \"draw_centered\": false,\n\n    // Controls auto pairing of quotes, brackets etc\n    \"auto_match_enabled\": true,\n\n    // Word list to use for spell checking\n    \"dictionary\": \"Packages/Language - English/en_US.dic\",\n\n    // Sets which scopes are checked for spelling errors\n    \"spelling_selector\": \"markup.raw, source string.quoted - punctuation - meta.preprocessor.include, source comment - source comment.block.preprocessor, -(source, constant, keyword, storage, support, variable, markup.underline.link, meta.tag)\",\n\n    // Set to true to draw a border around the visible rectangle on the minimap.\n    // The color of the border will be determined by the \"minimapBorder\" key in\n    // the color scheme\n    \"draw_minimap_border\": false,\n\n    // Always visualise the viewport on the minimap, as opposed to only\n    // showing it on mouse over\n    \"always_show_minimap_viewport\": false,\n\n    // If enabled, will highlight any line with a caret\n    \"highlight_line\": false,\n\n    // Valid values are \"smooth\", \"phase\", \"blink\" and \"solid\".\n    \"caret_style\": \"smooth\",\n\n    // These settings control the size of the caret\n    \"caret_extra_top\": 2,\n    \"caret_extra_bottom\": 2,\n    \"caret_extra_width\": 1,\n\n    // Set to false to disable underlining the brackets surrounding the caret\n    \"match_brackets\": true,\n\n    // Set to false if you'd rather only highlight the brackets when the caret is\n    // next to one\n    \"match_brackets_content\": true,\n\n    // Set to false to not highlight square brackets. This only takes effect if\n    // match_brackets is true\n    \"match_brackets_square\": true,\n\n    // Set to false to not highlight curly brackets. This only takes effect if\n    // match_brackets is true\n    \"match_brackets_braces\": true,\n\n    // Set to false to not highlight angle brackets. This only takes effect if\n    // match_brackets is true\n    \"match_brackets_angle\": false,\n\n    // Enable visualization of the matching tag in HTML and XML\n    \"match_tags\": true,\n\n    // Highlights other occurrences of the currently selected text\n    \"match_selection\": true,\n\n    // Additional spacing at the top of each line, in pixels\n    \"line_padding_top\": 0,\n\n    // Additional spacing at the bottom of each line, in pixels\n    \"line_padding_bottom\": 0,\n\n    // Set to false to disable scrolling past the end of the buffer.\n    // On OS X, this value is overridden in the platform specific settings, so\n    // you'll need to place this line in your user settings to override it.\n    \"scroll_past_end\": true,\n\n    // This controls what happens when pressing up or down when on the first\n    // or last line.\n    // On OS X, this value is overridden in the platform specific settings, so\n    // you'll need to place this line in your user settings to override it.\n    \"move_to_limit_on_up_down\": false,\n\n    // Set to \"none\" to turn off drawing white space, \"selection\" to draw only the\n    // white space within the selection, and \"all\" to draw all white space\n    \"draw_white_space\": \"selection\",\n\n    // Set to false to turn off the indentation guides.\n    // The color and width of the indent guides may be customized by editing\n    // the corresponding .tmTheme file, and specifying the colors \"guide\",\n    // \"activeGuide\" and \"stackGuide\"\n    \"draw_indent_guides\": true,\n\n    // Controls how the indent guides are drawn, valid options are\n    // \"draw_normal\" and \"draw_active\". draw_active will draw the indent\n    // guides containing the caret in a different color.\n    \"indent_guide_options\": [\"draw_normal\"],\n\n    // Set to true to removing trailing white space on save\n    \"trim_trailing_white_space_on_save\": false,\n\n    // Set to true to ensure the last line of the file ends in a newline\n    // character when saving\n    \"ensure_newline_at_eof_on_save\": false,\n\n    // Set to true to automatically save files when switching to a different file\n    // or application\n    \"save_on_focus_lost\": false,\n\n    // Save via writing to an alternate file, and then renaming it over the\n    // original file.\n    \"atomic_save\": false,\n\n    // The encoding to use when the encoding can't be determined automatically.\n    // ASCII, UTF-8 and UTF-16 encodings will be automatically detected.\n    \"fallback_encoding\": \"Western (Windows 1252)\",\n\n    // Encoding used when saving new files, and files opened with an undefined\n    // encoding (e.g., plain ascii files). If a file is opened with a specific\n    // encoding (either detected or given explicitly), this setting will be\n    // ignored, and the file will be saved with the encoding it was opened\n    // with.\n    \"default_encoding\": \"UTF-8\",\n\n    // Files containing null bytes are opened as hexadecimal by default\n    \"enable_hexadecimal_encoding\": true,\n\n    // Determines what character(s) are used to terminate each line in new files.\n    // Valid values are 'system' (whatever the OS uses), 'windows' (CRLF) and\n    // 'unix' (LF only).\n    \"default_line_ending\": \"system\",\n\n    // When enabled, hovering over a word will show a popup listing all\n    // possible locations for the definition symbol. Requires index_files.\n    \"show_definitions\": true,\n\n    // When enabled, pressing tab will insert the best matching completion.\n    // When disabled, tab will only trigger snippets or insert a tab.\n    // Shift+tab can be used to insert an explicit tab when tab_completion is\n    // enabled.\n    \"tab_completion\": true,\n\n    // Enable auto complete to be triggered automatically when typing.\n    \"auto_complete\": true,\n\n    // The maximum file size where auto complete will be automatically triggered.\n    \"auto_complete_size_limit\": 4194304,\n\n    // The delay, in ms, before the auto complete window is shown after typing\n    \"auto_complete_delay\": 50,\n\n    // Controls what scopes auto complete will be triggered in\n    \"auto_complete_selector\": \"meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc\",\n\n    // Additional situations to trigger auto complete\n    \"auto_complete_triggers\": [ {\"selector\": \"text.html\", \"characters\": \"<\"} ],\n\n    // By default, auto complete will commit the current completion on enter.\n    // This setting can be used to make it complete on tab instead.\n    // Completing on tab is generally a superior option, as it removes\n    // ambiguity between committing the completion and inserting a newline.\n    \"auto_complete_commit_on_tab\": false,\n\n    // Controls if auto complete is shown when snippet fields are active.\n    // Only relevant if auto_complete_commit_on_tab is true.\n    \"auto_complete_with_fields\": false,\n\n    // Controls what happens when pressing the up key while the first item in\n    // the auto complete window is selected: if false, the window is hidden,\n    // otherwise the last item in the window is selected. Likewise for the\n    // down key when the last item is selected.\n    \"auto_complete_cycle\": false,\n\n    // Automatically close HTML and XML tags when </ is entered.\n    \"auto_close_tags\": true,\n\n    // By default, shift+tab will only unindent if the selection spans\n    // multiple lines. When pressing shift+tab at other times, it'll insert a\n    // tab character - this allows tabs to be inserted when tab_completion is\n    // enabled. Set this to true to make shift+tab always unindent, instead of\n    // inserting tabs.\n    \"shift_tab_unindent\": false,\n\n    // If true, the copy and cut commands will operate on the current line\n    // when the selection is empty, rather than doing nothing.\n    \"copy_with_empty_selection\": true,\n\n    // If true, the selected text will be copied into the find panel when it's\n    // shown.\n    // On OS X, this value is overridden in the platform specific settings, so\n    // you'll need to place this line in your user settings to override it.\n    \"find_selected_text\": true,\n\n    // When auto_find_in_selection is enabled, the \"Find in Selection\" flag\n    // will be enabled automatically when multiple lines of text are selected\n    \"auto_find_in_selection\": false,\n\n    // When drag_text is enabled, clicking on selected text will begin a\n    // drag-drop operation. This is not currently implemented under Linux.\n    \"drag_text\": true,\n\n    //\n    // User Interface Settings\n    //\n\n    // The theme controls the look of Sublime Text's UI (buttons, tabs, scroll bars, etc)\n    \"theme\": \"Default.sublime-theme\",\n\n    // Set to 0 to disable smooth scrolling. Set to a value between 0 and 1 to\n    // scroll slower, or set to larger than 1 to scroll faster\n    \"scroll_speed\": 1.0,\n\n    // Controls side bar animation when expanding or collapsing folders\n    \"tree_animation_enabled\": true,\n\n    // Controls animation throughout the application\n    \"animation_enabled\": true,\n\n    // Makes tabs with modified files more visible\n    \"highlight_modified_tabs\": false,\n\n    \"show_tab_close_buttons\": true,\n\n    // Show folders in the side bar in bold\n    \"bold_folder_labels\": false,\n\n    // Draw divider lines between sections of the UI when using the Adaptive theme\n    \"adaptive_dividers\": true,\n\n    // OS X only. Valid values are true, false, and \"auto\". Auto will enable\n    // the setting when running on a screen 2560 pixels or wider (i.e., a\n    // Retina display). When this setting is enabled, OpenGL is used to\n    // accelerate drawing. Sublime Text must be restarted for changes to take\n    // effect.\n    \"gpu_window_buffer\": \"auto\",\n\n    // Valid values are \"system\", \"enabled\" and \"disabled\"\n    \"overlay_scroll_bars\": \"system\",\n\n    // Allows tabs to scroll left and right, instead of simply shrinking\n    \"enable_tab_scrolling\": true,\n\n    // Display file encoding in the status bar\n    \"show_encoding\": false,\n\n    // Display line endings in the status bar\n    \"show_line_endings\": false,\n\n    //\n    // Application Behavior Settings\n    //\n\n    // Exiting the application with hot_exit enabled will cause it to close\n    // immediately without prompting. Unsaved modifications and open files will\n    // be preserved and restored when next starting.\n    //\n    // Closing a window with an associated project will also close the window\n    // without prompting, preserving unsaved changes in the workspace file\n    // alongside the project.\n    \"hot_exit\": true,\n\n    // remember_full_screen will allow Sublime Text to start in full screen\n    // mode if it was exited in full screen mode. When set to false, Sublime\n    // Text will never start in full screen mode.\n    \"remember_full_screen\": false,\n\n    // OS X only. If the user's default shell should be invoked to obtain the\n    // user's customized environment variables. May be a boolean, or a string\n    // of the path the shell to invoke. Sublime Text must be restarted for this\n    // to take effect.\n    \"shell_environment\": true,\n\n    // Always prompt before reloading a file, even if the file hasn't been\n    // modified. The default behavior is to automatically reload a file if it\n    // hasn't been edited. If a file has unsaved changes, a prompt will always\n    // be shown.\n    \"always_prompt_for_file_reload\": false,\n\n    // OS X only: When files are opened from finder, or by dragging onto the\n    // dock icon, this controls if a new window is created or not.\n    \"open_files_in_new_window\": true,\n\n    // OS X only: This controls if an empty window is created at startup or not.\n    \"create_window_at_startup\": true,\n\n    // OS X only: Show recent files on the Touch Bar.\n    \"show_navigation_bar\": true,\n\n    // Set to true to close windows as soon as the last file is closed, unless\n    // there's a folder open within the window.\n    // On OS X, this value is overridden in the platform specific settings, so\n    // you'll need to place this line in your user settings to override it.\n    \"close_windows_when_empty\": false,\n\n    // Show the full path to files in the title bar.\n    // On OS X, this value is overridden in the platform specific settings, so\n    // you'll need to place this line in your user settings to override it.\n    \"show_full_path\": true,\n\n    // Shows the Build Results panel when building. If set to false, the Build\n    // Results can be shown via the Tools/Build Results menu.\n    \"show_panel_on_build\": true,\n\n    // Shows build errors just under the line on which they occur.\n    \"show_errors_inline\": true,\n\n    // Preview file contents when clicking on a file in the side bar. Double\n    // clicking or editing the preview will open the file and assign it a tab.\n    \"preview_on_click\": true,\n\n    // folder_exclude_patterns and file_exclude_patterns control which files\n    // are listed in folders on the side bar. These can also be set on a per-\n    // project basis.\n    \"folder_exclude_patterns\": [\".svn\", \".git\", \".hg\", \"CVS\"],\n    \"file_exclude_patterns\": [\"*.pyc\", \"*.pyo\", \"*.exe\", \"*.dll\", \"*.obj\",\"*.o\", \"*.a\", \"*.lib\", \"*.so\", \"*.dylib\", \"*.ncb\", \"*.sdf\", \"*.suo\", \"*.pdb\", \"*.idb\", \".DS_Store\", \"*.class\", \"*.psd\", \"*.db\", \"*.sublime-workspace\"],\n    // These files will still show up in the side bar, but won't be included in\n    // Goto Anything or Find in Files\n    \"binary_file_patterns\": [\"*.jpg\", \"*.jpeg\", \"*.png\", \"*.gif\", \"*.ttf\", \"*.tga\", \"*.dds\", \"*.ico\", \"*.eot\", \"*.pdf\", \"*.swf\", \"*.jar\", \"*.zip\"],\n\n    // File indexing parses all files in the side bar, and builds an index of\n    // their symbols. This is required for Goto Definition to work.\n    \"index_files\": true,\n\n    // Set the number threads to use for indexing. A value of 0 will make\n    // Sublime Text guess based on the number of cores. Use the index_files\n    // setting to disable all workers.\n    \"index_workers\": 0,\n\n    // index_exclude_patterns indicate which files won't be indexed.\n    \"index_exclude_patterns\": [\"*.log\"],\n\n    // List any packages to ignore here. When removing entries from this list,\n    // a restart may be required if the package contains plugins.\n    \"ignored_packages\": [\"Vintage\"]\n}\n",
-					"file": "/home/paul/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+					"contents": "{\n    // Set to true to print extra information in the console.\n    \"debug\": false,\n\n    // When in the \"background\" lint mode, this value determines\n    // the minimum delay before a request is send to the linter\n    \"delay\": 0.1,\n\n    // Available gutter themes:\n    // Blueberry Cross\n    // Blueberry Round\n    // Circle\n    // Danish Royalty\n    // Default\n    // Hands\n    // Knob\n    // Knob Symbol\n    // Koloria\n    // ProjectIcons\n    // Note that you may need to change the \"icon\" property in \"styles\"\n    // to an icon in the theme (they usually include \"warning\" and \"error\")\n    \"gutter_theme\": \"Default\",\n\n    // EXPERIMENTAL: See below `demote_while_editing`.\n    // Tip: If you set this to a very high number, like 360 seconds, you\n    // basically see the demoted regions only on save.\n    \"highlights.time_to_idle\": 1.5,\n\n    // EXPERIMENTAL: One of 'none', 'ws_regions', 'warnings', 'all'\n    // Essentially picks a predicate fn from `highlights.py` to demote the\n    // visibility of some lint errors while editing (busy). These errors\n    // appear after `time_to_idle` seconds or immediately on save.\n    \"highlights.demote_while_editing\": \"none\",\n\n    // EXPERIMENTAL: A typical Sublime scope which gets applied to\n    // the regions while busy. Use the empty string to actually hide\n    // the regions. E.g. try 'comment' to get a soft gray.\n    \"highlights.demote_scope\": \"\",\n\n    // Send `terminate` signal to old lint processes, if their result would\n    // be thrown away. If false we fire-and-forget processes instead.\n    \"kill_old_processes\": false,\n\n    // Lint Modes determine when the linter is run\n    // background: asynchronously on every change\n    // load_save: when a file is opened and every time it's saved\n    // manual: only when calling the Lint This View command\n    // save: only when a file is saved\n    \"lint_mode\": \"background\",\n\n    // Example of linter specific settings.\n    // Linter specific settings can also be changed in sublime-project settings.\n    // What settings are available is documented in the readme of the\n    // specific linter plugin.\n    // \"linters\": {\n    //     \"somelinter\": {\n    //         \"disable\": false,\n    //         \"args\": [],\n    //         \"excludes\": []\n    //     },\n    //     \"somepythonlinter\": {\n    //         \"python\": null,\n    //         \"disable\": false,\n    //         \"args\": [\n    //             \"--max-complexity\", \"-1\",\n    //             \"--max-line-length\", \"100\",\n    //             \"--ignore\", \"E731,E402\"\n    //         ],\n    //         \"excludes\": [],\n    //     }\n    // }\n    \"linters\": {},\n\n    // Determines what happens when a linter reports a problem without column.\n    // By default, a mark is put in the gutter and the first character is highlighted.\n    // If this setting is `true`, the entire line is also highlighted.\n    \"no_column_highlights_line\": false,\n\n    // Provide extra paths to be searched when locating system executables.\n    \"paths\": {\n        \"linux\": [],\n        \"osx\": [],\n        \"windows\": []\n    },\n\n    // Show a report for problems on a line by hovering over the gutter.\n    \"show_hover_line_report\": true,\n\n    // Show a report for problems on a region by hovering over it.\n    \"show_hover_region_report\": true,\n\n    // Highlight problems in the minimap.\n    \"show_marks_in_minimap\": true,\n\n    // Show the output panel on save if there are problems.\n    // Note: currently works best with lint_mode \"background\", See #1200\n    // Set to \"window\" to check if the window has problems.\n    // Set to \"view\" to only check the current file.\n    // Set to \"never\" to disable this feature.\n    \"show_panel_on_save\": \"never\",\n\n    // Display counters in the status bar.\n    // The {}'s will be replaced by warnings and errors respectively.\n    // Example alternative: (w:{}, e:{})\n    \"statusbar.counters_template\": \"({}|{})\",\n\n    // Show the messages for problems at your cursor position\n    // {message} will be replaced by the actual messages.\n    // {linter} will be replaced by the linter reporting the error.\n    // {type} will be replaced by either warning or error.\n    // {code} will be replaced by the error code.\n    // Set to \"\" to display nothing\n    \"statusbar.messages_template\": \"{message}\",\n\n    \"statusbar.show_active_linters\": true,\n\n    // Global styles for all linters.\n    // - mark_style options:\n    //   \"none\"\n    //   \"fill\", \"outline\",\n    //   \"solid_underline\", \"squiggly_underline\", \"stippled_underline\"\n    //   The underline styles are replaced with outlines when there is\n    //   whitespace in the problem region, because underlines aren't drawn\n    //   on whitespace (ST issue #137).\n    // - priority determines which mark is shown in the gutter;\n    //   error marks will still always override warning marks.\n    // - scope is used to determine the color;\n    //   region.<colorish> are automatically generated scopes in ST > 3148.\n    // - types is an array which can contain \"warning\" and/or \"error\".\n    // - codes is an array which can contain error codes provided by a linter.\n    // - icon can be:\n    //   one of the default icons: \"circle\", \"dot\" or \"bookmark\"\n    //   or \"none\" to remove the icon\n    //   or a path to an icon file like\n    //      \"Packages/SublimeLinter/gutter-themes/Blueberry Cross/error.png\"\n    //   or one provided by a gutter theme (e.g. \"warning\" or \"error\")\n    //      in theme Default: \"warning\", \"error\", \"cog\", \"x\",\n    //      and \"diamond\", \"heart\", \"pointer\", \"square\", \"star\", \"triangle\" all\n    //      also have an -outline variant.\n    // Note: At least one of those targets is required: types or codes.\n    // Styles can also be specified per linter.\n    \"styles\": [\n        {\n            \"mark_style\": \"outline\",\n            \"priority\": 1,\n            \"scope\": \"region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter\",\n            \"icon\": \"dot\",\n            \"types\": [\n                \"warning\"\n            ]\n        },\n        {\n            \"mark_style\": \"outline\",\n            \"priority\": 1,\n            \"scope\": \"region.redish markup.deleted.sublime_linter markup.error.sublime_linter\",\n            \"icon\": \"dot\",\n            \"types\": [\n                \"error\"\n            ]\n        }\n    ],\n\n    // Maps variant syntaxes to the syntax that you have a linter for.\n    // The syntax is the name of the syntax definition file, in lower case\n    // Run this in the console to find it: view.settings().get('syntax').lower()\n    \"syntax_map\": {\n        \"html (django)\": \"html\",\n        \"html (rails)\": \"html\",\n        \"html 5\": \"html\",\n        \"javascript (babel)\": \"javascript\",\n        \"magicpython\": \"python\",\n        \"php\": \"html\",\n        \"python django\": \"python\",\n        \"pythonimproved\": \"python\"\n    }\n}\n",
+					"file": "/home/paul/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 					"file_size": -1,
 					"file_write_time": -1,
 					"settings":
 					{
-						"buffer_size": 17206,
+						"buffer_size": 6765,
 						"line_ending": "Unix",
 						"read_only": true,
 						"scratch": true
 					}
 				},
 				{
-					"file": "/home/paul/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"file": "/home/paul/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 306,
+						"buffer_size": 1691,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -551,40 +423,16 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 354.0,
-				"last_filter": "insta",
+				"height": 0.0,
+				"last_filter": "",
 				"selected_items":
 				[
-					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
-						"install ",
-						"Package Control: Install Package"
-					],
-					[
-						"Package remove",
-						"Package Control: Remove Package"
-					],
-					[
-						"Pac",
-						"Package Control: Remove Package"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"pac",
-						"Install Package Control"
-					]
 				],
-				"width": 603.0
+				"width": 0.0
 			},
 			"console":
 			{
-				"height": 130.0,
+				"height": 173.0,
 				"history":
 				[
 				]
@@ -600,14 +448,10 @@
 			},
 			"file_history":
 			[
-				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AssociateController.php",
-				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AppointmentController.php",
-				"/home/paul/web/course-manager/mty-course-manager/frontend/controllers/AlertController.php",
-				"/home/paul/web/laravel/laradock-bm/docker-compose.yml"
 			],
 			"find":
 			{
-				"height": 38.0
+				"height": 0.0
 			},
 			"find_in_files":
 			{
@@ -643,24 +487,24 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/paul/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+							"file": "/home/paul/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 17206,
+								"buffer_size": 6765,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										17206,
-										17206
+										6765,
+										6765
 									]
 								],
 								"settings":
 								{
-									"edit_settings_other_view_id": 257,
+									"edit_settings_other_view_id": 33,
 									"edit_settings_view": "base",
 									"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
 								},
@@ -679,44 +523,43 @@
 					[
 						{
 							"buffer": 1,
-							"file": "/home/paul/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+							"file": "/home/paul/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 306,
+								"buffer_size": 1691,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										259,
-										259
+										137,
+										137
 									]
 								],
 								"settings":
 								{
-									"edit_settings_other_view_id": 256,
+									"edit_settings_other_view_id": 32,
 									"edit_settings_view": "user",
 									"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
-									"translate_tabs_to_spaces": false,
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true,
 									"vintage":
 									{
-										"_vintageous_glue_until_normal_mode": false,
 										"action": null,
 										"action_count": "",
 										"mode": "mode_normal",
 										"motion": null,
 										"motion_count": "",
 										"must_capture_register_name": false,
-										"normal_insert_count": "1",
 										"partial_sequence": "",
 										"register": "\"",
 										"sequence": "",
-										"xpos": 36
+										"xpos": 4
 									}
 								},
-								"translation.x": 41.0,
+								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
@@ -728,11 +571,11 @@
 			],
 			"incremental_find":
 			{
-				"height": 28.0
+				"height": 0.0
 			},
 			"input":
 			{
-				"height": 69.0
+				"height": 61.0
 			},
 			"layout":
 			{
@@ -764,16 +607,24 @@
 				]
 			},
 			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter Messages":
+			{
+				"height": 139.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,51,24,691,532,3840,1080",
+			"position": "0,1,0,0,0,65,52,622,470,1366,768",
 			"project": "",
 			"replace":
 			{
-				"height": 52.0
+				"height": 0.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -782,14 +633,6 @@
 				"last_filter": "",
 				"selected_items":
 				[
-					[
-						"alertcontr",
-						"frontend/controllers/AlertController.php"
-					],
-					[
-						"asso",
-						"frontend/controllers/AssociateController.php"
-					]
 				],
 				"width": 0.0
 			},
@@ -814,6 +657,8 @@
 			"selected_group": 1,
 			"settings":
 			{
+				"_vintageous_last_buffer_search": "mark",
+				"_vintageous_last_buffer_search_command": "vi_slash",
 				"_vintageous_reset_during_init": true,
 				"vintage":
 				{
@@ -823,12 +668,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": false,
-			"side_bar_width": 260.0,
+			"side_bar_width": 131.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 11,
+			"window_id": 2,
 			"workspace_name": ""
 		}
 	],

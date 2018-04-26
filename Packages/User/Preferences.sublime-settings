@@ -9,6 +9,5 @@
 	"line_padding_bottom": 5,
 	"line_padding_top": 5,
 	"theme": "Material-Theme.sublime-theme",
-	"vintageous_use_ctrl_keys": true,
-
+	"vintageous_use_ctrl_keys": true
 }
